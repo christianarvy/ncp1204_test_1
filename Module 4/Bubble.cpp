@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-// An optimized version of Bubble Sort 
 void bubbleSort(vector<int>& arr) {
     int n = arr.size();
     bool swapped;
@@ -16,7 +15,7 @@ void bubbleSort(vector<int>& arr) {
             }
         }
       
-        // If no two elements were swapped, then break
+    
         if (!swapped)
             break;
     }

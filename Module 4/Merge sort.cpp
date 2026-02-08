@@ -68,3 +68,24 @@ int main(){
     
     return 0;
 }
+
+cout <<\ntask 3: Data Merging(stack and queue)" 
+
+vector<int> Mergeddata;
+ 
+While(!mystack.empty()) {
+    Mergeddata.push_back(mystack.top());
+    mystack.pop();
+}
+ 
+while(!myqueue.empty()) {
+    Mergeddata.push_back(myqueue.front());
+    myqueue.pop();
+}
+
+cout<<"total elements aftyer merging: "<<Mergeddata.size()<<endl;
+cout<<"Merged Data: ";
+for(int val : Mergeddata) {
+    cout<<val<<" ";
+}
+cout<<endl;

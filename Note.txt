@@ -1,0 +1,30 @@
+Make a c++ code; (one program only)
+make sure the display has verification if there's a content for the display (stack and queue)
+Header should have stack,vector,queue,iostream, 
+Tasks:
+
+1. create an integer array, composing a 10 elements with values ranging from 20-60 (this is unsorrted)
+= display using for loop the content of the array
+
+2. create 1 stacks and 1 queue container that can store the content of the inital array (use an insert function)
+ ;pop 3x for the said stacks
+ ;display the content of the stack and queue
+
+3.combine the content of the stack and queue in one container (14 elements will be retain) 
+ ;stack will be the first content
+ ;queue will follow 
+ ;this will be called data merging. Print the results afterwards
+
+ 4. Create a 4 sorting algorithm functions that can be called, and insert the array
+ ;content of data merging will be inserted on the sorting algorithm
+ ; data of data merge will run thru the 4 sorting
+ E.g. selection sort this content
+
+ 5.chrono function (estimate time complexity of each algorithm)
+ ;between running of the 4sorting algorithm, monitor the time complexity of the 4 sorting
+ ;(start run bubble sort, end)
+ repeat 4x - create a conlusion
+
+ the main and functions are different = bubble time complexity = milliseconds (mm)
+
+ 
